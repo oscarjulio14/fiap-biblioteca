@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",                          // JS moderno
+    "lib": ["ES2018","DOM"],
+    "types": ["node"],
+    "module": "commonjs",                     // Suporte ao Node.js
+    "rootDir": "src",                          // De onde ele lê os .ts
+    "outDir": "dist",                       // Para onde vão os .js
+    "strict": true,                           // Segurança máxima (ótimo pra aprender)
+    "esModuleInterop": true,                  // Compatibilidade com import/export
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": ["src"],                     // Inclui todos os arquivos .ts
+  "exclude": ["node_modules"]                 // Ignora as dependências
+}
